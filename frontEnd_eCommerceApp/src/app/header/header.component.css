@@ -1,0 +1,43 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav h1{
+    color: #dc143c;
+    margin: 0;
+    font-size: 40px;
+}
+.nav ul{
+    display: inline-flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #dc143c;
+    font-weight: 700;
+}
+.nav .nav-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.nav .nav-search input{
+    flex: 1;
+    color: #000;
+    border: 1px solid #000;
+    height: 30px;
+}
+.nav .nav-search .button{
+    margin-left: -35px;
+    background: #e7e7e7;
+    padding: 4px;
+}
